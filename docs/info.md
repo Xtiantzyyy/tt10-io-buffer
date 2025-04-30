@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A 100Mbps PVT Variation-less I/O Buffer using Skywater 130nm CMOS Process
 
 ## How to test
 
-Explain how to use your project
+Set the inputs for DATA, CLK, and OE connect the bi-directional pin, VPAD to the output and input port 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Simulation and Measurements in an Oscilloscope
