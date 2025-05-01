@@ -36,8 +36,6 @@ MACRO tt10-io-buffer
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 31.500000 ;
-    ANTENNADIFFAREA 157.894989 ;
     PORT
       LAYER met4 ;
         RECT 136.170 0.000 137.070 1.000 ;
@@ -468,7 +466,7 @@ MACRO tt10-io-buffer
     ANTENNADIFFAREA 1.400000 ;
     PORT
       LAYER li1 ;
-        RECT 56.150 152.750 56.500 153.150 ;
+        RECT 56.200 153.300 56.500 153.600 ;
     END
   END DataN2
   OBS
@@ -481,7 +479,7 @@ MACRO tt10-io-buffer
       LAYER met2 ;
         RECT 1.000 1.650 138.000 222.900 ;
       LAYER met3 ;
-        RECT 1.000 9.900 138.000 222.900 ;
+        RECT 1.000 1.550 138.000 222.900 ;
       LAYER met4 ;
         RECT -6.350 228.650 140.150 228.950 ;
         RECT -6.350 -2.800 -6.050 228.650 ;
