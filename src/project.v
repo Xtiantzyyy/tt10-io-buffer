@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt10-io-buffer (
+module tt_um_tt10-io-buffer (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
     input  wire       VAPWR,    // 3.3v power supply
