@@ -48,7 +48,7 @@ foreach {name x} $POWER_STRIPES {
 # Save the layout and export GDS/LEF
 # ----------------------------------
 save ${TOP_LEVEL_CELL}.mag
-file mkdir gds
-gds write ../gds/tt10-io-buffer.gds
-file mkdir lef
-lef write ../lef/tt10-io-buffer.lef -hide -pinonly
+file mkdir ../gds
+gds write ../gds/tt_um_tt10-io-buffer.gds
+file mkdir ../lef
+lef write ../lef/tt_um_tt10-io-buffer.lef -hide -pinonly
