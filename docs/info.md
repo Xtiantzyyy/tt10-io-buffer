@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-A 100Mbps PVT Variation-less I/O Buffer using Skywater 130nm CMOS Process
+A 100 Mbps PVT Variation-less I/O Buffer using Skywater 130nm CMOS Process
 
 ## How to test
 
