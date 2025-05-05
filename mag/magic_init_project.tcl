@@ -49,6 +49,6 @@ foreach {name x} $POWER_STRIPES {
 # ----------------------------------
 save ${TOP_LEVEL_CELL}.mag
 file mkdir ../gds
-gds write ../gds/tt_um_tt10-io-buffer.gds
+gds write ../gds/tt_um_tt10_io_buffer.gds
 file mkdir ../lef
-lef write ../lef/tt_um_tt10-io-buffer.lef -hide -pinonly
+lef write ../lef/tt_um_tt10_io_buffer.lef -hide -pinonly

@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_tt10-io-buffer
+MACRO tt_um_tt10_io_buffer
   CLASS BLOCK ;
-  FOREIGN tt_um_tt10-io-buffer ;
+  FOREIGN tt_um_tt10_io_buffer ;
   ORIGIN 0.000 0.000 ;
   SIZE 145.360 BY 225.760 ;
   PIN clk
@@ -521,6 +521,6 @@ MACRO tt_um_tt10-io-buffer
         RECT 137.470 0.000 138.000 1.400 ;
         RECT 136.000 -0.050 138.000 0.000 ;
   END
-END tt_um_tt10-io-buffer
+END tt_um_tt10_io_buffer
 END LIBRARY
 
